@@ -117,7 +117,148 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelTextCondition1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelTextCondition1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 19.800001pt, style=Italic</value>
+  </data>
+  <data name="labelTextCondition1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="labelTextCondition1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 46</value>
+  </data>
+  <data name="labelTextCondition1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelTextCondition1.Text" xml:space="preserve">
+    <value>Условие</value>
+  </data>
+  <data name="&gt;&gt;labelTextCondition1.Name" xml:space="preserve">
+    <value>labelTextCondition1</value>
+  </data>
+  <data name="&gt;&gt;labelTextCondition1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTextCondition1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelTextCondition1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LabelTextCondition2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelTextCondition2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="LabelTextCondition2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 77</value>
+  </data>
+  <data name="LabelTextCondition2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>763, 84</value>
+  </data>
+  <data name="LabelTextCondition2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LabelTextCondition2.Text" xml:space="preserve">
+    <value>Дано выражение вычислить его значение при x = 3, результат вывести в TextBox. 
+Округлить до трёх знаков после запятой. Графический интерфейс оформить 
+по шаблону из лекции.</value>
+  </data>
+  <data name="&gt;&gt;LabelTextCondition2.Name" xml:space="preserve">
+    <value>LabelTextCondition2</value>
+  </data>
+  <data name="&gt;&gt;LabelTextCondition2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelTextCondition2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LabelTextCondition2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="resultButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="resultButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>656, 429</value>
+  </data>
+  <data name="resultButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 69</value>
+  </data>
+  <data name="resultButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="resultButton.Text" xml:space="preserve">
+    <value>Вычислить</value>
+  </data>
+  <data name="&gt;&gt;resultButton.Name" xml:space="preserve">
+    <value>resultButton</value>
+  </data>
+  <data name="&gt;&gt;resultButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resultButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resultButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="resultText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resultText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 13.8pt, style=Bold</value>
+  </data>
+  <data name="resultText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 449</value>
+  </data>
+  <data name="resultText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 31</value>
+  </data>
+  <data name="resultText.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="resultText.Text" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="&gt;&gt;resultText.Name" xml:space="preserve">
+    <value>resultText</value>
+  </data>
+  <data name="&gt;&gt;resultText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resultText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resultText.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="resultBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 455</value>
+  </data>
+  <data name="resultBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 27</value>
+  </data>
+  <data name="resultBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;resultBox.Name" xml:space="preserve">
+    <value>resultBox</value>
+  </data>
+  <data name="&gt;&gt;resultBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resultBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resultBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="formulaPicture.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABIAAAALQCAYAAADo9guXAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
@@ -1397,5 +1538,75 @@
         MwABAAAAHGcAAgAAADjOAAQAAABwnAEIAAAA4DgDEAAAAMBxBiAAAACA4/738PDwryRJkiRJku5mAJIk
         SZIkSTrdw7//AY+P0o/jmu3gAAAAAElFTkSuQmCC
 </value>
+  </data>
+  <data name="formulaPicture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 210</value>
+  </data>
+  <data name="formulaPicture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 177</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="formulaPicture.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="formulaPicture.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;formulaPicture.Name" xml:space="preserve">
+    <value>formulaPicture</value>
+  </data>
+  <data name="&gt;&gt;formulaPicture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;formulaPicture.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;formulaPicture.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonHelp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 28.2pt</value>
+  </data>
+  <data name="buttonHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 419</value>
+  </data>
+  <data name="buttonHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 79</value>
+  </data>
+  <data name="buttonHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="buttonHelp.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="&gt;&gt;buttonHelp.Name" xml:space="preserve">
+    <value>buttonHelp</value>
+  </data>
+  <data name="&gt;&gt;buttonHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonHelp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>885, 521</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Спринт 6 | Таск 0 | Вариант 17 | Косьянов Д.В.</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

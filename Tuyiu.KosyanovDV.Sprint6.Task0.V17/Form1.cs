@@ -24,5 +24,10 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task0.V17
         {
             MessageBox.Show("Таск 0 выполнил студент группы ПКТб-24-1 Косьянов Даниил Васильевич", "Сообщение");
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
