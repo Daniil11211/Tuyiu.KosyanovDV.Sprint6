@@ -134,7 +134,7 @@
             Controls.Add(TextCondition1);
             Controls.Add(ConditionImage);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Спринт 6 | Таск 1 | Вариант 24 | Косьянов Д.В.";
             ((System.ComponentModel.ISupportInitialize)ConditionImage).EndInit();
             ResumeLayout(false);
             PerformLayout();
