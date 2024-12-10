@@ -1,6 +1,6 @@
 ﻿namespace Tuyiu.KosyanovDV.Sprint6.Task2.V14
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             ConditionPicture = new PictureBox();
             startValueLabel = new Label();
             stopValueLabel = new Label();
@@ -102,7 +102,6 @@
             resultLabel.Size = new Size(134, 23);
             resultLabel.TabIndex = 5;
             resultLabel.Text = "Вывод данных";
-            resultLabel.Click += label3_Click;
             // 
             // resultDataGridView
             // 
@@ -132,18 +131,18 @@
             // 
             // resultChart
             // 
-            chartArea2.Name = "ChartArea1";
-            resultChart.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            resultChart.Legends.Add(legend2);
+            chartArea1.Name = "ChartArea1";
+            resultChart.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            resultChart.Legends.Add(legend1);
             resultChart.Location = new Point(870, 66);
             resultChart.Name = "resultChart";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series2.IsVisibleInLegend = false;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            resultChart.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsVisibleInLegend = false;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            resultChart.Series.Add(series1);
             resultChart.Size = new Size(585, 340);
             resultChart.TabIndex = 7;
             // 
@@ -172,11 +171,11 @@
             helpButton.TabIndex = 9;
             helpButton.Text = "?";
             helpButton.UseVisualStyleBackColor = false;
-            helpButton.Click += button2_Click;
+            helpButton.Click += this.helpButton_Click;
             helpButton.MouseEnter += helpButton_MouseEnter;
             helpButton.MouseLeave += helpButton_MouseLeave;
             // 
-            // Form1
+            // FormMain
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -192,8 +191,9 @@
             Controls.Add(stopValueLabel);
             Controls.Add(startValueLabel);
             Controls.Add(ConditionPicture);
-            Name = "Form1";
+            Name = "FormMain";
             Text = "Спринт 6 | Таск 2 | Вариант 14 | Косьянов Д.В.";
+            Load += FormMain_Load_2;
             ((System.ComponentModel.ISupportInitialize)ConditionPicture).EndInit();
             ((System.ComponentModel.ISupportInitialize)resultDataGridView).EndInit();
             ((System.ComponentModel.ISupportInitialize)resultChart).EndInit();

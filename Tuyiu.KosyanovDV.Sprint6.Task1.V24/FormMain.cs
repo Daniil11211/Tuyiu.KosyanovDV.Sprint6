@@ -1,11 +1,11 @@
 using Tuyiu.KosyanovDV.Sprint6.Task1.V24.Lib;
 namespace Tuyiu.KosyanovDV.Sprint6.Task1.V24
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
         DataService ds = new DataService();
-        
-        public Form1()
+
+        public FormMain()
         {
             InitializeComponent();
         }
@@ -22,7 +22,7 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task1.V24
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
 
         }
 
@@ -33,7 +33,7 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task1.V24
 
         private void resultPrintButton_Click(object sender, EventArgs e)
         {
-            try 
+            try
             {
                 resultTextBox.Text = "";
                 resultTextBox.AppendText(" +-----------+-----------+ " + Environment.NewLine);
@@ -62,8 +62,14 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task1.V24
             {
                 MessageBox.Show("¬ведены неверные данные", "ќшибка");
             }
-            
 
+
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            startValueTextBox.Text = "-5";
+            stopValueTextBox.Text = "5";
         }
     }
 }

@@ -2,9 +2,9 @@ using Tuyiu.KosyanovDV.Sprint6.Task3.V15.Lib;
 
 namespace Tuyiu.KosyanovDV.Sprint6.Task3.V15
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
-        public Form1()
+        public FormMain()
         {
             InitializeComponent();
         }
@@ -14,7 +14,7 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task3.V15
                                         { 30, -16, 29, 28, 8 },
                                         { 30, 5, 11, 7, 32 } };
 
-        private void button1_Click(object sender, EventArgs e)
+        private void resultPrintButton_Click(object sender, EventArgs e)
         {
             DataService ds = new DataService();
 
@@ -40,7 +40,7 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task3.V15
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void FormMain_Load(object sender, EventArgs e)
         {
             int rows = matrix.GetUpperBound(0) + 1;
             int cols = matrix.Length / rows;

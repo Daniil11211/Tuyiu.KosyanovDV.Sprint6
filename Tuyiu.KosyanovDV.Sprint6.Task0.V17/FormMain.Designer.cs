@@ -1,6 +1,6 @@
 ﻿namespace Tuyiu.KosyanovDV.Sprint6.Task0.V17
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             labelTextCondition1 = new Label();
             LabelTextCondition2 = new Label();
             resultButton = new Button();
@@ -48,7 +48,6 @@
             // 
             resources.ApplyResources(LabelTextCondition2, "LabelTextCondition2");
             LabelTextCondition2.Name = "LabelTextCondition2";
-            LabelTextCondition2.Click += label2_Click;
             // 
             // resultButton
             // 
@@ -82,7 +81,7 @@
             buttonHelp.UseVisualStyleBackColor = false;
             buttonHelp.Click += buttonHelp_Click;
             // 
-            // Form1
+            // FormMain
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
@@ -93,7 +92,7 @@
             Controls.Add(resultButton);
             Controls.Add(LabelTextCondition2);
             Controls.Add(labelTextCondition1);
-            Name = "Form1";
+            Name = "FormMain";
             ((System.ComponentModel.ISupportInitialize)formulaPicture).EndInit();
             ResumeLayout(false);
             PerformLayout();

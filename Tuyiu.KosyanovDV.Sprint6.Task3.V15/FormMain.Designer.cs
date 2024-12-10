@@ -1,6 +1,6 @@
 ﻿namespace Tuyiu.KosyanovDV.Sprint6.Task3.V15
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             conditionLabelText = new Label();
             dataGridViewMatrix = new DataGridView();
             resultLabelText = new Label();
@@ -43,7 +43,7 @@
             // 
             conditionLabelText.AutoSize = true;
             conditionLabelText.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            conditionLabelText.Location = new Point(12, 65);
+            conditionLabelText.Location = new Point(12, 21);
             conditionLabelText.Name = "conditionLabelText";
             conditionLabelText.Size = new Size(501, 275);
             conditionLabelText.TabIndex = 0;
@@ -89,7 +89,7 @@
             resultPrintButton.TabIndex = 4;
             resultPrintButton.Text = "Выполнить";
             resultPrintButton.UseVisualStyleBackColor = true;
-            resultPrintButton.Click += button1_Click;
+            resultPrintButton.Click += resultPrintButton_Click;
             // 
             // helpButton
             // 
@@ -101,7 +101,7 @@
             helpButton.UseVisualStyleBackColor = true;
             helpButton.Click += helpButton_Click;
             // 
-            // Form1
+            // FormMain
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -112,9 +112,9 @@
             Controls.Add(resultLabelText);
             Controls.Add(dataGridViewMatrix);
             Controls.Add(conditionLabelText);
-            Name = "Form1";
+            Name = "FormMain";
             Text = "Спринт 6 | Таск 3 | Вариант 15 | Косьянов Д.В.";
-            Load += Form1_Load;
+            Load += this.FormMain_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridViewMatrix).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewMatrixResult).EndInit();
             ResumeLayout(false);

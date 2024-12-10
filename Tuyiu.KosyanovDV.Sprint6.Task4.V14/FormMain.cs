@@ -2,9 +2,9 @@ using Tuyiu.KosyanovDV.Sprint6.Task4.V14.Lib;
 
 namespace Tuyiu.KosyanovDV.Sprint6.Task4.V14
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
-        public Form1()
+        public FormMain()
         {
             InitializeComponent();
         }
@@ -67,10 +67,17 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task4.V14
                     txt.StartInfo.Arguments = path;
                     txt.Start();
                 }
-            } catch 
+            }
+            catch
             {
                 MessageBox.Show("Ошибка при сохранении файла", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            StartValueTextBox.Text = "-5";
+            StopValueTextBox.Text = "5";
         }
     }
 }

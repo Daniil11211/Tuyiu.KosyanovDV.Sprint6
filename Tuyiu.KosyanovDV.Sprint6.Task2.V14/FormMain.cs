@@ -2,21 +2,16 @@ using Tuyiu.KosyanovDV.Sprint6.Task2.V14.Lib;
 
 namespace Tuyiu.KosyanovDV.Sprint6.Task2.V14
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
-        public Form1()
+        public FormMain()
         {
             InitializeComponent();
         }
 
         DataService ds = new DataService();
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
+        private void helpButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Таск 2 выполнил студент группы ПКТб-24-1 Косьянов Даниил Васильевич", "Справка");
         }
@@ -78,6 +73,12 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task2.V14
         {
             resultPrintButton.BackColor = Color.White;
             resultPrintButton.ForeColor = Color.Black;
+        }
+
+        private void FormMain_Load_2(object sender, EventArgs e)
+        {
+            startValueTextBox.Text = "-5";
+            stopValueTextBox.Text = "5";
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Tuyiu.KosyanovDV.Sprint6.Task1.V24
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             ConditionImage = new PictureBox();
             TextCondition1 = new Label();
             TextCondition2 = new Label();
@@ -120,7 +120,7 @@
             resultTextBox.TabIndex = 7;
             resultTextBox.TextChanged += textBox1_TextChanged;
             // 
-            // Form1
+            // FormMain
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -133,8 +133,9 @@
             Controls.Add(TextCondition2);
             Controls.Add(TextCondition1);
             Controls.Add(ConditionImage);
-            Name = "Form1";
+            Name = "FormMain";
             Text = "Спринт 6 | Таск 1 | Вариант 24 | Косьянов Д.В.";
+            Load += FormMain_Load;
             ((System.ComponentModel.ISupportInitialize)ConditionImage).EndInit();
             ResumeLayout(false);
             PerformLayout();
