@@ -27,7 +27,7 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task4.V14
                 this.PrintResultChart.Titles.Add("График функции");
 
                 this.PrintResultChart.ChartAreas[0].AxisX.Title = "Ось Х";
-                this.PrintResultChart.ChartAreas[0].AxisX.Title = "Ось Y";
+                this.PrintResultChart.ChartAreas[0].AxisY.Title = "Ось Y";
 
                 ResultPrintTextBox.Text = "";
 
