@@ -19,21 +19,16 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task7.V21.Lib
                 string[] values = lines[i].Split(';');
                 for (int j = 0; j < cols; j++)
                 {
-                    
+
                     if (double.TryParse(values[j], NumberStyles.Any, CultureInfo.InvariantCulture, out double number))
                     {
                         array[i, j] = Convert.ToInt32(number);
                     }
-                }
-            }
 
-            int colToEdit = 8;
-
-            for (int i = 0; i < array.GetLength(0); i++)
-            {
-                if (array[i, colToEdit] != 5)
-                {
-                    array[i, colToEdit] = -1;
+                    if (array[i, 7] != 5)
+                    {
+                        array[i, 7] = -1;
+                    }
                 }
             }
 

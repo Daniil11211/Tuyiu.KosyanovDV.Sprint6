@@ -122,8 +122,10 @@
             // dataGridViewIn
             // 
             dataGridViewIn.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewIn.ColumnHeadersVisible = false;
             dataGridViewIn.Location = new Point(30, 325);
             dataGridViewIn.Name = "dataGridViewIn";
+            dataGridViewIn.RowHeadersVisible = false;
             dataGridViewIn.RowHeadersWidth = 51;
             dataGridViewIn.Size = new Size(443, 332);
             dataGridViewIn.TabIndex = 7;
@@ -131,8 +133,10 @@
             // dataGridViewOut
             // 
             dataGridViewOut.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewOut.ColumnHeadersVisible = false;
             dataGridViewOut.Location = new Point(614, 325);
             dataGridViewOut.Name = "dataGridViewOut";
+            dataGridViewOut.RowHeadersVisible = false;
             dataGridViewOut.RowHeadersWidth = 51;
             dataGridViewOut.Size = new Size(521, 332);
             dataGridViewOut.TabIndex = 8;

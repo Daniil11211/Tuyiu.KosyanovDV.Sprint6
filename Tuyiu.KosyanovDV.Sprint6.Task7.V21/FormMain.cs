@@ -45,8 +45,7 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task7.V21
         {
             try
             {
-                int[,] arrayValues = new int[rows, cols];
-                arrayValues = ds.GetMatrix(openFilePath);
+                int[,] arrayValues = ds.GetMatrix(openFilePath);
 
                 for (int r = 0; r < rows; r++)
                 {
@@ -80,8 +79,8 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task7.V21
 
             for (int i = 0; i < cols; i++)
             {
-                dataGridViewIn.Columns[i].Width = 25;
-                dataGridViewOut.Columns[i].Width = 25;
+                dataGridViewIn.Columns[i].Width = 35;
+                dataGridViewOut.Columns[i].Width = 35;
             }
 
             for (int r = 0; r < rows; r++)
