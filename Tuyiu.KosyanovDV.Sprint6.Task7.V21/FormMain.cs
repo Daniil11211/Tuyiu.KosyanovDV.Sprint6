@@ -8,7 +8,7 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task7.V21
         public FormMain()
         {
             InitializeComponent();
-            openFileDialogTask.Filter = "Значения, разделённые запятыми(*.csv)|*.csv|Все файлы(*.*)|*.*";
+            openFileDialogTask.Filter = "*.csv|*.csv|Все файлы(*.*)|*.*";
             saveFileDialogTask.Filter = "Значения, разделённые запятыми(*.csv)|*.csv|Все файлы(*.*)|*.*";
         }
 
@@ -40,27 +40,23 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task7.V21
             return array;
         }
 
-        
+
         private void buttonResultPrint_Click(object sender, EventArgs e)
         {
-            try
-            {
-                int[,] arrayValues = ds.GetMatrix(openFilePath);
 
-                for (int r = 0; r < rows; r++)
+            int[,] arrayValues = ds.GetMatrix(openFilePath);
+
+            for (int r = 0; r < rows; r++)
+            {
+                for (int c = 0; c < cols; c++)
                 {
-                    for (int c = 0; c < cols; c++)
-                    {
-                        dataGridViewOut.Rows[r].Cells[c].Value = arrayValues[r, c];
-                    }
+                    dataGridViewOut.Rows[r].Cells[c].Value = arrayValues[r, c];
                 }
+            }
 
-                buttonSaveFile.Enabled = true;
-            }
-            catch
-            {
-                MessageBox.Show("Не удалось выполнить данную операцию", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            buttonSaveFile.Enabled = true;
+            buttonResultPrint.Enabled = false;
+
         }
 
         private void buttonOpenFile_Click(object sender, EventArgs e)
@@ -68,6 +64,8 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task7.V21
 
             openFileDialogTask.ShowDialog();
             openFilePath = openFileDialogTask.FileName;
+
+            labelTextIn.Text = labelTextIn.Text + " " + openFilePath;
 
             int[,] arrayValues = LoadDataFromFile(openFilePath);
 
@@ -91,10 +89,11 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task7.V21
                 }
             }
 
-            buttonOpenFile.Enabled = true;
+            buttonResultPrint.Enabled = true;
+            buttonOpenFile.Enabled = false;
         }
 
-    
+
 
         private void buttonSaveFile_Click(object sender, EventArgs e)
         {
@@ -158,11 +157,13 @@ namespace Tuyiu.KosyanovDV.Sprint6.Task7.V21
 
             for (int i = 0; i < dataGridViewIn.RowCount; i++)
             {
-               dataGridViewIn.Columns[i].Width = 25;
-               dataGridViewOut.Columns[i].Width = 25;
-                
+                dataGridViewIn.Columns[i].Width = 25;
+                dataGridViewOut.Columns[i].Width = 25;
+
             }
 
+            buttonResultPrint.Enabled = false;
+            buttonSaveFile.Enabled = false;
         }
     }
 }

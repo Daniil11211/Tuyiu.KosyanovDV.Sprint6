@@ -58,44 +58,47 @@
             // buttonResultPrint
             // 
             buttonResultPrint.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            buttonResultPrint.Location = new Point(12, 12);
+            buttonResultPrint.Image = (Image)resources.GetObject("buttonResultPrint.Image");
+            buttonResultPrint.Location = new Point(213, 12);
             buttonResultPrint.Name = "buttonResultPrint";
             buttonResultPrint.Size = new Size(165, 96);
             buttonResultPrint.TabIndex = 1;
-            buttonResultPrint.Text = "Выполнить";
+            toolTip.SetToolTip(buttonResultPrint, "Выполнить\r\nВыполнить условие задачи, представленное ниже");
             buttonResultPrint.UseVisualStyleBackColor = true;
             buttonResultPrint.Click += buttonResultPrint_Click;
             // 
             // buttonOpenFile
             // 
             buttonOpenFile.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            buttonOpenFile.Location = new Point(210, 12);
+            buttonOpenFile.Image = (Image)resources.GetObject("buttonOpenFile.Image");
+            buttonOpenFile.Location = new Point(12, 12);
             buttonOpenFile.Name = "buttonOpenFile";
             buttonOpenFile.Size = new Size(168, 96);
             buttonOpenFile.TabIndex = 2;
-            buttonOpenFile.Text = "Открыть файл";
+            toolTip.SetToolTip(buttonOpenFile, "Загрузить файл...\r\ncsv файл матрицы");
             buttonOpenFile.UseVisualStyleBackColor = true;
-            buttonOpenFile.Click += buttonOpenFile_Click;
             // 
             // buttonSaveFile
             // 
             buttonSaveFile.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            buttonSaveFile.Image = (Image)resources.GetObject("buttonSaveFile.Image");
             buttonSaveFile.Location = new Point(410, 12);
             buttonSaveFile.Name = "buttonSaveFile";
             buttonSaveFile.Size = new Size(164, 96);
             buttonSaveFile.TabIndex = 3;
-            buttonSaveFile.Text = "Сохранить файл";
+            toolTip.SetToolTip(buttonSaveFile, "Сохранить файл...\r\nВыберите место для сохранения");
             buttonSaveFile.UseVisualStyleBackColor = true;
             buttonSaveFile.Click += buttonSaveFile_Click;
             // 
             // buttonInfo
             // 
             buttonInfo.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            buttonInfo.Image = (Image)resources.GetObject("buttonInfo.Image");
             buttonInfo.Location = new Point(1130, 12);
             buttonInfo.Name = "buttonInfo";
             buttonInfo.Size = new Size(171, 96);
             buttonInfo.TabIndex = 4;
-            buttonInfo.Text = "Справка";
+            toolTip.SetToolTip(buttonInfo, "Справка\r\nЗдесь вы можете узнать информацию о создателе программы");
             buttonInfo.UseVisualStyleBackColor = true;
             buttonInfo.Click += buttonInfo_Click;
             // 

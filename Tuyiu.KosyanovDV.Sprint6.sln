@@ -61,11 +61,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuyiu.KosyanovDV.Sprint6.Ta
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task7", "Task7", "{3FE68F4D-3806-4A92-959D-E8F1941C5D42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuyiu.KosyanovDV.Sprint6.Task7.V21", "Tuyiu.KosyanovDV.Sprint6.Task7.V21\Tuyiu.KosyanovDV.Sprint6.Task7.V21.csproj", "{5F7AC2BC-4BB6-434D-9903-7A740EA09EE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuyiu.KosyanovDV.Sprint6.Task7.V21", "Tuyiu.KosyanovDV.Sprint6.Task7.V21\Tuyiu.KosyanovDV.Sprint6.Task7.V21.csproj", "{5F7AC2BC-4BB6-434D-9903-7A740EA09EE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuyiu.KosyanovDV.Sprint6.Task7.V21.Lib", "Tuyiu.KosyanovDV.Sprint6.Task7.V21.Lib\Tuyiu.KosyanovDV.Sprint6.Task7.V21.Lib.csproj", "{3B4771CB-356B-4EA5-A322-E568A8343CAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuyiu.KosyanovDV.Sprint6.Task7.V21.Lib", "Tuyiu.KosyanovDV.Sprint6.Task7.V21.Lib\Tuyiu.KosyanovDV.Sprint6.Task7.V21.Lib.csproj", "{3B4771CB-356B-4EA5-A322-E568A8343CAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuyiu.KosyanovDV.Sprint6.Task7.V21.Test", "Tuyiu.KosyanovDV.Sprint6.Task7.V21.Test\Tuyiu.KosyanovDV.Sprint6.Task7.V21.Test.csproj", "{74CCEF69-B7EA-4BCA-AD24-7C42D687BF29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuyiu.KosyanovDV.Sprint6.Task7.V21.Test", "Tuyiu.KosyanovDV.Sprint6.Task7.V21.Test\Tuyiu.KosyanovDV.Sprint6.Task7.V21.Test.csproj", "{74CCEF69-B7EA-4BCA-AD24-7C42D687BF29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
