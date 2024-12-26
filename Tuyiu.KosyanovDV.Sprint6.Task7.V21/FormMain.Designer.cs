@@ -77,6 +77,7 @@
             buttonOpenFile.TabIndex = 2;
             toolTip.SetToolTip(buttonOpenFile, "Загрузить файл...\r\ncsv файл матрицы");
             buttonOpenFile.UseVisualStyleBackColor = true;
+            buttonOpenFile.Click += buttonOpenFile_Click;
             // 
             // buttonSaveFile
             // 
